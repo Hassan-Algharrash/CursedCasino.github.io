@@ -1,5 +1,6 @@
 body {
     background-image: url("../images/Game_Cover.png");
+    background-size: 100vw 100vh;
 }
 
 header {
@@ -57,28 +58,44 @@ img {
     border-radius: 5px 5px 0 0;
 }
 
-.text p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Lucida Console", "Courier New", monospace;
-    max-width: 40%;
-    margin: 50px;
-    color: white;
-}
-
 .contactForm {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10%;
 }
+.level {
+    text-align: center;
+    margin: 5%;
+}
 
-form {
-    display: inline-block;
-    text-align: left;
-    max-width: 400px;
-    margin: 15px auto;
+.level h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.map {
+    text-align: center;
+    margin: 5%;
+}
+
+.map h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.character {
+    margin: 150px;
+}
+
+.character p {
+    color: white;
+    text-decoration: bold;
+}
+
+.character h3 {
+    color: white;
+    text-decoration: bold;
 }
 
 label {
@@ -87,9 +104,13 @@ label {
     color: white;
 }
 
-input {
-    width: 100%;
-    padding: 4px;
-    margin-bottom: 12px;
-    box-sizing: border-box;
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    color: white;
 }
